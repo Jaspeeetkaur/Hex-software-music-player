@@ -1,0 +1,142 @@
+/* Common styles for header, footer, sidebar, etc., are assumed to be here */
+
+/* Search Page Specific Styles */
+.search-section {
+    padding: 199px;
+    background-color:green;
+    
+
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.language-cards {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.language-cards .card {
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.language-cards .card.english { background-color: #007bff; }
+.language-cards .card.hindi { background-color: #ff5722; }
+.language-cards .card.punjabi { background-color: #4caf50; }
+.language-cards .card.spanish { background-color: #9c27b0; }
+.language-cards .card.french { background-color: #ffc107; }
+.language-cards .card.german { background-color: #f44336; }
+
+.language-cards .card:hover {
+    opacity: 0.8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #181818;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1db954;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav ul li {
+    margin-left: 20px;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .auth-buttons button {
+    margin-left: 15px;
+    padding: 8px 15px;
+    background-color: #1db954;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .auth-buttons .log-in {
+    background-color: transparent;
+    border: 2px solid #1db954;
+  }
+  
+  .main-contentt {
+    display: flex;
+    height: calc(100vh - 100px);
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #181818;
+    padding: 20px;
+  }
+  
+  .create-playlist {
+    width: 100%;
+    padding: 10px;
+    background-color: #1db954;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .legal-links a {
+    display: block;
+    margin-top: 15px;
+    color: #b3b3b3;
+    text-decoration: none;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #121212;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #181818;
+  }
+  .footer p{
+    color:white;
+  }

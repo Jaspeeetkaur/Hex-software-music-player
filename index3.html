@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicStream - Album</title>
+    <link rel="stylesheet" href="css_file/index3.css">
+    <link rel="stylesheet" href="css_file/privacy.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">MusicStream</div>
+       
+    </header>
+
+        <section class="content">
+            <!-- Album Cover and Details -->
+            <div class="album-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Karan_Aujla_in_studio.jpg/800px-Karan_Aujla_in_studio.jpg" alt="Album Cover" class="album-cover">
+                <div class="album-details">
+                    <h1 class="album-title">Making Memories</h1>
+                    <p class="album-artist">Karan Aujla</p>
+                    <p class="album-year">2023 • 9 songs, 25 min 18 sec</p>
+                </div>
+            </div>
+
+            <!-- Music Player -->
+            <div class="music-player">
+                <div class="player-controls">
+                    <button id="prevBtn" class="control-btn">⏮️</button>
+                    <button id="playBtn" class="control-btn">▶️</button>
+                    <button id="nextBtn" class="control-btn">⏭️</button>
+                    <button id="shuffleBtn" class="control-btn">🔀</button>
+                    <button id="repeatBtn" class="control-btn">🔁</button>
+                </div>
+
+                <div class="player-info">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Karan_Aujla_in_studio.jpg/800px-Karan_Aujla_in_studio.jpg" alt="Song Cover" class="song-cover">
+                    <div class="song-details">
+                        <h3 id="songTitle">Girl, I Love You (Euro's Intro)</h3>
+                        <p id="songArtist">Karan Aujla, Ikky</p>
+                    </div>
+                </div>
+
+                <div class="player-progress">
+                    <span id="currentTime">0:00</span>
+                    <input type="range" id="progressBar" value="0" min="0" max="100">
+                    <span id="durationTime">3:45</span>
+                </div>
+
+                <div class="player-actions">
+                    <button id="downloadBtn" class="action-btn">⬇️ Download</button>
+                    <div class="rating">
+                        <span class="rating-star">⭐</span>
+                        <span class="rating-star">⭐</span>
+                        <span class="rating-star">⭐</span>
+                        <span class="rating-star">⭐</span>
+                        <span class="rating-star">⭐</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Song List -->
+            <ul class="song-list">
+                <li class="song-item" data-song="song1.mp3">
+                    <span>#1</span>Admirin<span>1:03</span>
+                </li>
+                <li class="song-item" data-song="song2.mp3">
+                    <span>#2</span> Bachke Bachke<span>2:26</span>
+                </li>
+                <li class="song-item" data-song="song3.mp3">
+                    <span>#3</span>champion's Anthem<span>3:34</span>
+                </li>
+                <li class="song-item" data-song="song4.mp3">
+                    <span>#4</span>Girl I Love You<span>2:19</span>
+                </li>
+                <li class="song-item" data-song="song1.mp3">
+                    <span>#5</span> Jee Ni Lagda <span>1:03</span>
+                </li>
+                <li class="song-item" data-song="song1.mp3">
+                    <span>#6</span> Softly<span>1:03</span>
+                </li>
+                <li class="song-item" data-song="song1.mp3">
+                    <span>#7</span>Try Me<span>1:03</span>
+                </li>
+                <li class="song-item" data-song="song1.mp3">
+                    <span>#8</span>What<span>1:03</span>
+                </li>
+                <li class="song-item" data-song="song1.mp3">
+                    <span>#9</span> You <span>1:03</span>
+                </li>
+               
+            </ul>
+        </section>
+    </div>
+    <!-- Back Button -->
+    <button id="backButton" onclick="goBack()">
+        &larr;
+    </button>
+
+    <script src="javascript_file/privacy.js"></script>
+
+
+    <footer class="footer">
+        <p>© 2024 MusicStream. All rights reserved.</p>
+    </footer>
+
+    <script src="javascript_file/script3.js"></script>
+</body>
+</html>

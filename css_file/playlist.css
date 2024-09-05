@@ -1,0 +1,78 @@
+/* Common styles for header, footer, sidebar, etc., are assumed to be here */
+
+/* Create Playlist Page Specific Styles */
+.playlist-section {
+    padding: 20px;
+}
+
+.create-playlist {
+    margin-bottom: 20px;
+}
+
+.create-playlist input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 120px);
+    margin-right: 10px;
+}
+
+.create-playlist button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+.create-playlist button:hover {
+    background-color: #1ed760;
+}
+
+#playlist-container {
+    margin-top: 20px;
+}
+
+.playlist {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.playlist h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.playlist ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.playlist ul li {
+    background-color: #444;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playlist ul li button {
+    background-color: transparent;
+    border: none;
+    color: #1db954;
+    cursor: pointer;
+}
+
+.playlist ul li button:hover {
+    color: #1ed760;
+}
